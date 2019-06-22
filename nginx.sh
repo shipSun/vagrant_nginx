@@ -26,6 +26,4 @@ echo 'server {
 
       }' > /usr/local/nginx/conf/conf.d/www.conf;
 
-echo "/usr/local/nginx/sbin/nginx.service start" >> /etc/rc.local;
-
 service nginx start;
